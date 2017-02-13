@@ -204,7 +204,7 @@ public class ConsoleLauncher {
 	private static boolean authenticate(String login, String password) {
 
 		// TODO replace this hardcoded check by the real authentication method
-		return "rohit".equals(login) && "passw".equals(password);
+		return "rohit".equals(login) && "pass".equals(password);
 	}
 
 }
