@@ -61,7 +61,13 @@ public class ConsoleLauncher {
 			deleteIdentity(scanner);
 			break;
 		case "d":
+			//list all identities
 			listIdentities();
+			break;
+		case "e":
+			//Quit
+			System.out.println("Thanks for using the application");
+			scanner.close();
 			break;
 		default:
 			System.out.println("This option is not recognized ("+ answer + ")");

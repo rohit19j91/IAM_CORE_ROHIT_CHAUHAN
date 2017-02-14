@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" author="true" classpath="../lib/derbyclient.jar" destdir="doc" doctitle="Java Doc for IAM CORE" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" overview="C:\Users\Administrator\workspace\Java-EPITA\Overview.html" packagenames="fr.epita.iam.launcher,fr.epita.iam.services,fr.epita.iam.datamodel" source="1.8" sourcepath="../src;../test" splitindex="true" use="true" version="true">
+            <link href="file:/C:/Users/Administrator/git1/IAM_CORE_ROHIT_CHAUHAN/doc/"/>
+        </javadoc>
+    </target>
+</project>
